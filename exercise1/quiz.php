@@ -31,7 +31,7 @@ $particulars = array(
             <td><?php echo $particulars[0][2] ?></td>
             <td><?php echo $particulars[0][3] ?></td>
         </tr>
-        <!-- First record -->
+        <!-- Second record -->
         <tr>
             <td>2.</td>
             <td><?php echo $particulars[1][0] ?></td>
@@ -39,7 +39,7 @@ $particulars = array(
             <td><?php echo $particulars[1][2] ?></td>
             <td><?php echo $particulars[1][3] ?></td>
         </tr>
-        <!-- First record -->
+        <!-- Third record -->
         <tr>
             <td>3.</td>
             <td><?php echo $particulars[2][1] ?></td>
@@ -47,7 +47,7 @@ $particulars = array(
             <td><?php echo $particulars[2][2] ?></td>
             <td><?php echo $particulars[2][3] ?></td>
         </tr>
-        <!-- First record -->
+        <!-- Fourth record -->
         <tr>
             <td>4.</td>
             <td><?php echo $particulars[3][0] ?></td>
@@ -55,7 +55,7 @@ $particulars = array(
             <td><?php echo $particulars[3][2] ?></td>
             <td><?php echo $particulars[3][3] ?></td>
         </tr>
-        <!-- First record -->
+        <!-- Fifth record -->
         <tr>
             <td>5.</td>
             <td><?php echo $particulars[4][0] ?></td>
