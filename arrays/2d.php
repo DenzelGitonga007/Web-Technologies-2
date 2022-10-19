@@ -8,5 +8,5 @@ $marks = array(
     array(54, 73)
 );
 // Access an element
-echo $marks[2][1];
+echo "The value is: " . $marks[2][1];
 ?>
