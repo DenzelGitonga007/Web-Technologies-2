@@ -1,7 +1,8 @@
 <!-- Calculating mean has a mean score of s and assigning grades -->
 <?php
 // Initialize the array
-$marks = array(array(1, "SIT/0001/2021", "James Nyikal", 40, 50, 82),
+$marks = array(
+        array(1, "SIT/0001/2021", "James Nyikal", 40, 50, 82),
         array(2, "SIT/0022/2021", "Pauline Nzioka", 50, 64, 81),
         array(3, "SIT/0011/2021", "Mark Masai", 60, 70, 44)
 );
@@ -16,7 +17,6 @@ if ($mean_1 >= 70 and $mean_1 <= 100) {
 }
 elseif ($mean_1 >= 60 and $mean_1 <= 69) {
     $grade_1 = "very good";
-    echo $marks[0][2]. " has a mean score of  " . $mean_1 . " which is " . $grade_1;
     echo "<br>";
 }
 elseif ($mean_1 >= 50 && $mean_1 <= 59) {
