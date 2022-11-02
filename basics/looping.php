@@ -26,5 +26,15 @@
         }
         echo "<br>";
     }
+
+// Printing odd numbers
+for ($rows = 0; $rows <= 7; $rows++){
+    if (($rows % 2) != 0) {
+        for ($columns = 1; $columns <= 4; $columns++){
+            echo "$rows";
+        }
+        echo "<br>";
+    }
+}
     
 ?>
