@@ -36,5 +36,15 @@ for ($rows = 0; $rows <= 7; $rows++){
         echo "<br>";
     }
 }
+// Advanced
+for ($rows = 0; $rows <= 7; $rows++){
+    if (($rows % 2) != 0) {
+        for ($columns = 1; $columns <= $rows; $columns++){
+            echo "$rows";
+        }
+        echo "<br>";
+    }
+}
+
     
 ?>
