@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+    <h2 id="proud"></h2>
+    <p id="prog"></p>
+    <script>
+        document.getElementById("proud").innerHTML = "I am a proud student of Information Technology" //h2
+        document.getElementById("prog").innerHTML = "I can now program with Javascript" //p
+        //The function for changing the p contents
+    function changeParagraph() {
+        document.getElementById("prog").innerHTML = "Whatelse do you wish to know?"
+    }
+    </script>
+    <!-- The button to change P the contents -->
+    <button type="button" onclick="changeParagraph()">Something Else</button>
+</body>
+</html>
